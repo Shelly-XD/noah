@@ -1,6 +1,7 @@
 #!/usr/bin/python2
 # coding=utf-8
 # rekode bapakkau nih gw ngoding sendiri kontol
+# recode ni pantek
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, requests, uuid
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
@@ -112,19 +113,14 @@ def gantiua():
 def logo():
 	os.system("clear")
 	print("""
-\x1b[1;92m                    
-   _____ ______ __  __ ____  ______ _      
-  / ____|  ____|  \/  |  _ \|  ____| |     
- | |  __| |__  | \  / | |_) | |__  | |     
- | | |_ |  __| | |\/| |  _ <|  __| | |     
- | |__| | |____| |  | | |_) | |____| |____ 
-  \_____|______|_|  |_|____/|______|______|
-                                           
-\x1b[1;92m   
-\x1b[1;92m    
-\x1b[1;92m    
-\x1b[1;92m   
-\x1b[1;92m   
+\x1b[1;92m                       
+ _______               .__                   _____  .__        
+ \      \   _________  |  |__               /     \ |__|____   
+ /   |   \ /  _ \__  \ |  |  \    ______   /  \ /  \|  \__  \  
+/    |    (  <_> ) __ \|   Y  \  /_____/  /    Y    \  |/ __ \_
+\____|__  /\____(____  /___|  /           \____|__  /__(____  /
+        \/           \/     \/                    \/        \/ 
+\x1b[1;92m   \x1b[1;92m    \x1b[1;92m    \x1b[1;92m   \x1b[1;92m   
 """)
                             
 def tokenz():
@@ -171,8 +167,8 @@ def menu():
     logo()
     print""+p+"   * script masih dalam tahap pengembangan, maklum kalo ada bug"
     print""
-    print" [+] Author      : RAV PRATAMA XD."
-    print" [+] Github      : https://github.com/RAVXD" 
+    print" [+] Recode      : RAV PRATAMA XD."
+    print" [+] Github      : ---" 
     print" [+] ----------------------------------------"
     print" [+] Bergabung   : %s %s %s" % (ha, op, ta)
     print" [+] Status      : "+H+"Premium"
