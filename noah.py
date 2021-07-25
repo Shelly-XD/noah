@@ -115,12 +115,14 @@ def logo():
 	os.system("clear")
 	print("""
 \x1b[0;37m                       
- _______               .__                   _____  .__        
- \      \   _________  |  |__               /     \ |__|____   
- /   |   \ /  _ \__  \ |  |  \    ______   /  \ /  \|  \__  \  
-/    |    (  <_> ) __ \|   Y  \  /_____/  /    Y    \  |/ __ \_
-\____|__  /\____(____  /___|  /           \____|__  /__(____  /
-        \/           \/     \/                    \/        \/ 
+ 
+ `_________.__           .__  .__                  ____  ___________   
+ /   _____/|  |__   ____ |  | |  | ___.__.         \   \/  /\______ \  
+ \_____  \ |  |  \_/ __ \|  | |  |<   |  |  ______  \     /  |    |  \ 
+ /        \|   Y  \  ___/|  |_|  |_\___  | /_____/  /     \  |    `   \
+/_______  /|___|  /\___  >____/____/ ____|         /___/\  \/_______  /
+        \/      \/     \/          \/                    \_/        \/ 
+
 \x1b[0;37m  \x1b[0;37m   \x1b[0;37m   \x1b[0;37m   \x1b[0;37m
 """)
                             
@@ -166,9 +168,9 @@ def menu():
         sys.exit()
 
     logo()
-    print""+p+"   * script masih dalam tahap pengembangan, maklum kalo ada bug"
+    print""+p+"  * Scrip Hasil Recode Ya Ga Tau"
     print""
-    print" [+] Recode      : RAV PRATAMA XD."
+    print" [+] Recode      : Shelly X Noah X Mia."
     print" [+] Github      : ---" 
     print" [+] ----------------------------------------"
     print" [+] Bergabung   : %s %s %s" % (ha, op, ta)
@@ -609,10 +611,10 @@ def bapiman():
                     continue
                     continue
                 elif 'www.facebook.com' in response.json()['error_msg']:
-                    print'\r\x1b[0;93m  * -->' + uid + '|' + asu + '        '
+                    print'\r\x1b[0;93m  ──═◍➤' + uid + '|' + asu + '        '
                     cp.append(uid + ' | ' + asu)
                     save = open('out/CP-%s-%s-%s.txt' % (ha, op, ta), 'a')
-                    save.write('  * --> ' + str(uid) + '|' + str(asu) + '\n')
+                    save.write('  ──═◍➤ ' + str(uid) + '|' + str(asu) + '\n')
                     save.close()
                     break
                     continue
@@ -660,10 +662,10 @@ def mbasicman():
                     continue
                     continue
                 elif 'checkpoint' in xo:
-                    print'\r\x1b[0;93m  * --> ' + uid + '|' + asu + '        '
+                    print'\r\x1b[0;93m  ──═◍➤ ' + uid + '|' + asu + '        '
                     cp.append(uid + ' | ' + asu)
                     save = open('out/CP-%s-%s-%s.txt' % (ha, op, ta), 'a')
-                    save.write('  * --> ' + str(uid) + '|' + str(asu) + '\n')
+                    save.write('  ──═◍➤ ' + str(uid) + '|' + str(asu) + '\n')
                     save.close()
                     break
                     continue
@@ -712,10 +714,10 @@ def freefbman():
                     continue
                     continue
                 elif 'checkpoint' in xo:
-                    print'\r\x1b[0;93m  * --> ' + uid + '|' + asu + '        '
+                    print'\r\x1b[0;93m  ──═◍➤ ' + uid + '|' + asu + '        '
                     cp.append(uid + ' | ' + asu)
                     save = open('out/CP-%s-%s-%s.txt' % (ha, op, ta), 'a')
-                    save.write('  * --> ' + str(uid) + '|' + str(asu) + '\n')
+                    save.write('  ──═◍➤ ' + str(uid) + '|' + str(asu) + '\n')
                     save.close()
                     break
                     continue
@@ -800,19 +802,19 @@ def bapi():
 						graph = b["birthday"]
 						month, day, year = graph.split("/")
 						month = bulan[month]
-						print'\r\x1b[0;93m  * --> ' + uid + '|' + pw + '|' + day + ' ' + month + ' ' + year + ' '
+						print'\r\x1b[0;93m  ──═◍➤ ' + uid + '|' + pw + '|' + day + ' ' + month + ' ' + year + ' '
 						cp.append(uid + ' | ' + pw + ' | ' + day + ' ' + month + ' ' + year)
 						save = open('out/CP-%s-%s-%s.txt' % (ha, op, ta), 'a')
-						save.write('  * --> ' + str(uid) + '|' + str(pw) + ' | ' + str(day) + ' ' + str(month) + ' ' + str(year) +                     '\n')
+						save.write('  ──═◍➤ ' + str(uid) + '|' + str(pw) + ' | ' + str(day) + ' ' + str(month) + ' ' + str(year) +                     '\n')
 						save.close()
 						break
 					except(KeyError, IOError):
 						graph = " "
 					except:pass
-					print'\r\x1b[0;93m  * --> ' + uid + '|' + pw + '                        '
+					print'\r\x1b[0;93m  ──═◍➤ ' + uid + '|' + pw + '                        '
 					cp.append(uid + ' | ' + pw)
 					save = open('out/CP-%s-%s-%s.txt' % (ha, op, ta), 'a')
-					save.write('  * --> ' + str(uid) + '|' + str(pw) +                        '\n')
+					save.write('  ──═◍➤ ' + str(uid) + '|' + str(pw) +                        '\n')
 					save.close()
 					break
 					continue
@@ -865,19 +867,20 @@ def mbasic():
                         graph = b["birthday"]
                         month, day, year = graph.split("/")
                         month = bulan[month]
-                        print'\r\x1b[0;93m  * --> ' + uid + '|' + pw + '|' + day + ' ' + month + ' ' + year + ' '
+                        print'\r\x1b[0;93m  ──═◍➤ ' + uid + '|' + pw + '|' + day + ' ' + month + ' ' + year + ' '
                         cp.append(uid + ' | ' + pw + ' | ' + day + ' ' + month + ' ' + year)
                         save = open('out/CP-%s-%s-%s.txt' % (ha, op, ta), 'a')
-                        save.write('  * --> ' + str(uid) + '|' + str(pw) + ' | ' + str(day) + ' ' + str(month) + ' ' + str(year) +                     '\n')
+                        save.write('  ──═◍➤ ' + str(uid) + '|' + str(pw) + ' | ' + str(day) + ' ' + str(month) + ' ' + str(year) +                     '\n')
                         save.close()
                         break
                     except(KeyError, IOError):
                         graph = " "
                     except:pass
-                    print'\r\x1b[0;93m  * --> ' + uid + '|' + pw + '                        '
+                    print'\r\x1b[0;93m  ──═◍➤
+ ' + uid + '|' + pw + '                        '
                     cp.append(uid + ' | ' + pw)
                     save = open('out/CP-%s-%s-%s.txt' % (ha, op, ta), 'a')
-                    save.write('  * --> ' + str(uid) + '|' + str(pw) +                        '\n')
+                    save.write('  ──═◍➤ ' + str(uid) + '|' + str(pw) +                        '\n')
                     save.close()
                     break
                     continue
@@ -931,19 +934,19 @@ def freefb():
                         graph = b["birthday"]
                         month, day, year = graph.split("/")
                         month = bulan[month]
-                        print'\r\x1b[0;93m  * --> ' + uid + '|' + pw + '|' + day + ' ' + month + ' ' + year + ' '
+                        print'\r\x1b[0;93m  ──═◍➤ ' + uid + '|' + pw + '|' + day + ' ' + month + ' ' + year + ' '
                         cp.append(uid + ' | ' + pw + ' | ' + day + ' ' + month + ' ' + year)
                         save = open('out/CP-%s-%s-%s.txt' % (ha, op, ta), 'a')
-                        save.write('  * --> ' + str(uid) + '|' + str(pw) + ' | ' + str(day) + ' ' + str(month) + ' ' + str(year) +                     '\n')
+                        save.write(' ──═◍➤  ' + str(uid) + '|' + str(pw) + ' | ' + str(day) + ' ' + str(month) + ' ' + str(year) +                     '\n')
                         save.close()
                         break
                     except(KeyError, IOError):
                         graph = " "
                     except:pass
-                    print'\r\x1b[0;93m  * --> ' + uid + '|' + pw + '                        '
+                    print'\r\x1b[0;93m  ──═◍➤ ' + uid + '|' + pw + '                        '
                     cp.append(uid + ' | ' + pw)
                     save = open('out/CP-%s-%s-%s.txt' % (ha, op, ta), 'a')
-                    save.write('  * --> ' + str(uid) + '|' + str(pw) +                        '\n')
+                    save.write('  ──═◍➤ ' + str(uid) + '|' + str(pw) +                        '\n')
                     save.close()
                     break
                     continue
