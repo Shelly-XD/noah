@@ -137,14 +137,16 @@ def gantiua():
 def logo():
 	os.system("clear")
 	print("""
+⚀████⚁⚂████⚃⚄████⚅⚀████⚁⚂████⚃⚄████⚅
+⚀████⚁⚂████⚃⚄████⚅⚀████⚁⚂████⚃⚄████⚅
  ®_________.__           .__  .__                 
  /   _____/|  |__   ____ |  | |  | ___.__.®           
  \_____  \ |  |  \_/ __ \|  | |  |<   |  |   
  /        \|   Y  \  ___/|  |_|  |_\___  |       
 /_______  /|___|  /\___  >____/____/ ____|         
         \/      \/     \/          \/  
-
-                 
+⚀████⚁⚂████⚃⚄████⚅⚀████⚁⚂████⚃⚄████⚅
+⚀████⚁⚂████⚃⚄████⚅⚀████⚁⚂████⚃⚄████⚅                 
 """)
                             
 def tokenz():
@@ -156,7 +158,11 @@ def tokenz():
 		os.system('clear')
 		logo()
 		print""+p+""
-		print" [+] Cara Ambil Token Bisa Cek Di https://youtu.be/IdxphPBMMTU"
+		print" ⚀████⚁⚂████⚃⚄████⚅⚀████⚁⚂████⚃⚄████⚅"
+                print" LING AMBIL TOKEN"
+                print" http://m.facebook.com/composer/ocelot/async_loader/?publisher=feed"
+                print" PAKE BROWSER CROME/KIWI YA DEK"
+                print" ⚀████⚁⚂████⚃⚄████⚅⚀████⚁⚂████⚃⚄████⚅"
 		token = raw_input('\n [+] Masukkan Token : ')
 		try:
 			otw = requests.get('https://graph.facebook.com/me?access_token='+token)
