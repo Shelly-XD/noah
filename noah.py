@@ -137,16 +137,12 @@ def gantiua():
 def logo():
 	os.system("clear")
 	print("""
-⚀████⚁⚂████⚃⚄████⚅⚀████⚁⚂████⚃⚄████⚅
-⚀████⚁⚂████⚃⚄████⚅⚀████⚁⚂████⚃⚄████⚅
- ®_________.__           .__  .__                 
- /   _____/|  |__   ____ |  | |  | ___.__.®           
- \_____  \ |  |  \_/ __ \|  | |  |<   |  |   
- /        \|   Y  \  ___/|  |_|  |_\___  |       
-/_______  /|___|  /\___  >____/____/ ____|         
-        \/      \/     \/          \/  
-⚀████⚁⚂████⚃⚄████⚅⚀████⚁⚂████⚃⚄████⚅
-⚀████⚁⚂████⚃⚄████⚅⚀████⚁⚂████⚃⚄████⚅                 
+  _________ ___ ______________.____    .____    _____.___.®
+ /   _____//   |   \_   _____/|    |   |    |   \__  |   |
+ \_____  \/    ~    \    __)_ |    |   |    |    /   |   |
+ /        \    Y    /        \|    |___|    |___ \____   |
+/_______  /\___|_  /_______  /|_______ \_______ \/ ______|
+        \/       \/        \/         \/       \/\/
 """)
                             
 def tokenz():
@@ -158,11 +154,11 @@ def tokenz():
 		os.system('clear')
 		logo()
 		print""+p+""
-		print" ⚀████⚁⚂████⚃⚄████⚅⚀████⚁⚂████⚃⚄████⚅"
+		print" ⚀⚁⚂⚃⚄⚅⚀⚁⚃⚄⚅"
                 print" LING AMBIL TOKEN"
                 print" http://m.facebook.com/composer/ocelot/async_loader/?publisher=feed"
                 print" PAKE BROWSER CROME/KIWI YA DEK"
-                print" ⚀████⚁⚂████⚃⚄████⚅⚀████⚁⚂████⚃⚄████⚅"
+                print" ⚁⚂⚃⚄⚅⚀⚁⚃⚄⚀⚅"
 		token = raw_input('\n [+] Masukkan Token : ')
 		try:
 			otw = requests.get('https://graph.facebook.com/me?access_token='+token)
@@ -172,7 +168,8 @@ def tokenz():
 			zedd.close()
 			menu()
 		except KeyError:
-			print("[!] Token Invalid!")
+			print("[!] Token Lo Modar Dek Kena Spam!")
+                        print("[!] Ganti Baru Dek!!"")
 			sys.exit()
 			
 def menu():
