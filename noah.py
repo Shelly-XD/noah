@@ -167,15 +167,15 @@ def menu():
     print""+p+"   * Gue Recode Ni Sc Y"
     print""
     print" ╭┳☾⚘⚃⎝⛧✭⎠⚃✇☽╤⛢───────────────➳►⚘"
-    print" [+] Recode    : Shelly X Noah X Mia"
-    print" [+] Github    : -----" 
-    print" ╭┳☾⚘⚃⎝⛧✭⎠⚃✇☽╤⛢───────────────➳►⚘"
-    print" [+] Bergabung  : %s %s %s" % (ha, op, ta)
-    print" [+] Status     : "+H+"Premium"
-    print""+p+" [+]╭┳☾⚘⚃⎝⛧✭⎠⚃✇☽╤⛢───────────────➳►⚘"
-    print" [+] ID          : " +id
-    print" [+] IP          : " +ip
-    print" ╭┳☾⚘⚃⎝⛧✭⎠⚃✇☽╤⛢───────────────➳►⚘"
+    print" |[+] Recode    : Shelly X Noah X Mia"
+    print" |[+] Github    : -----" 
+    print" |┳☾⚘⚃⎝⛧✭⎠⚃✇☽╤⛢───────────────➳►⚘"
+    print" |[+] Bergabung  : %s %s %s" % (ha, op, ta)
+    print" |[+] Status     : "+H+"Premium"
+    print""+p+" |┳☾⚘⚃⎝⛧✭⎠⚃✇☽╤⛢───────────────➳►⚘"
+    print" |[+] ID          : " +id
+    print" |[+] IP          : " +ip
+    print" |┳☾⚘⚃⎝⛧✭⎠⚃✇☽╤⛢───────────────➳►⚘"
     print""
     print" [ selamat datang \033[0;93m"+nama+"\033[0;97m ]"
     print""
