@@ -166,7 +166,7 @@ def menu():
     logo()
     print""+p+"   * Gue Recode Ni Sc Y"
     print""
-    print" ╭┳☾⚘⚃⎝⛧✭⎠⚃✇☽╤⛢───────────────➳►⚘
+    print" ╭┳☾⚘⚃⎝⛧✭⎠⚃✇☽╤⛢───────────────➳►⚘"
     print" [+] Recode    : Shelly X Noah X Mia"
     print" [+] Github    : -----" 
     print" ╭┳☾⚘⚃⎝⛧✭⎠⚃✇☽╤⛢───────────────➳►⚘"
@@ -175,7 +175,7 @@ def menu():
     print""+p+" [+]╭┳☾⚘⚃⎝⛧✭⎠⚃✇☽╤⛢───────────────➳►⚘"
     print" [+] ID          : " +id
     print" [+] IP          : " +ip
-    print" ╭┳☾⚘⚃⎝⛧✭⎠⚃✇☽╤⛢───────────────➳►⚘
+    print" ╭┳☾⚘⚃⎝⛧✭⎠⚃✇☽╤⛢───────────────➳►⚘"
     print""
     print" [ selamat datang \033[0;93m"+nama+"\033[0;97m ]"
     print""
