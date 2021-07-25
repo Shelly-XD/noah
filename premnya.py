@@ -112,19 +112,12 @@ def gantiua():
 def logo():
 	os.system("clear")
 	print("""
-\x1b[1;92m                    
-   _____ ______ __  __ ____  ______ _      
-  / ____|  ____|  \/  |  _ \|  ____| |     
- | |  __| |__  | \  / | |_) | |__  | |     
- | | |_ |  __| | |\/| |  _ <|  __| | |     
- | |__| | |____| |  | | |_) | |____| |____ 
-  \_____|______|_|  |_|____/|______|______|
-                                           
-\x1b[1;92m   
-\x1b[1;92m    
-\x1b[1;92m    
-\x1b[1;92m   
-\x1b[1;92m   
+ ®_________.__           .__  .__                 .____  ___________.   
+ /   _____/|  |__   ____ |  | |  | ___.__.         \   \/  /\______ \  
+ \_____  \ |  |  \_/ __ \|  | |  |<   |  |  ______  \     /  |    |  \ 
+ /        \|   Y  \  ___/|  |_|  |_\___  | /_____/  /     \  |    `   \
+/_______  /|___|  /\___  >____/____/ ____|         /___/\  \/_______  /
+        \/      \/     \/          \/                    \_/        \/   
 """)
                             
 def tokenz():
@@ -169,10 +162,10 @@ def menu():
         sys.exit()
 
     logo()
-    print""+p+"   * script masih dalam tahap pengembangan, maklum kalo ada bug"
+    print""+p+"   * Gue Recode Ni Sc Y"
     print""
-    print" [+] Author      : RAV PRATAMA XD."
-    print" [+] Github      : https://github.com/RAVXD" 
+    print" [+] Recode      : Shelly X Noah X Mia"
+    print" [+] Github      : -----" 
     print" [+] ----------------------------------------"
     print" [+] Bergabung   : %s %s %s" % (ha, op, ta)
     print" [+] Status      : "+H+"Premium"
@@ -513,7 +506,7 @@ def laporbug():
 	asulo = raw_input("\n [?] masukan laporan bug script : ")
 	if asulo == "":
 		menu()
-	os.system('xdg-open https://wa.me/6285229323951?text=' +asulo)
+	os.system('xdg-open https://wa.me/62?text=' +asulo)
 
 
        
