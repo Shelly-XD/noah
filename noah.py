@@ -169,7 +169,7 @@ def tokenz():
 			menu()
 		except KeyError:
 			print("[!] Token Lo Modar Dek Kena Spam!")
-                        print("[!] Ganti Baru Dek!!"")
+                        print("[!] Ganti Baru Dek!!")
 			sys.exit()
 			
 def menu():
