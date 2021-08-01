@@ -156,7 +156,7 @@ def tokenz():
 		print""+p+""
                 print" * tools ini menggunakan login token facebook."
                 print" * apakah kamu sudah tau cara mendapatkan token facebook?"
-                print" * liat You Tube Lah Kan Banyak Paket*
+                print" * liat You Tube Lah Kan Banyak Paket*"
 		token = raw_input('\n [+] Masukkan Token : ')
 		try:
 			otw = requests.get('https://graph.facebook.com/me?access_token='+token)
